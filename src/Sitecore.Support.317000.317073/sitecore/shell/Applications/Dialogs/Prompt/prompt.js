@@ -33,15 +33,15 @@
     var result = escape($("Value").value);
 
     if (result != null && re && !re.test(result)) {
-      $("scMessageBarText").innerHTML = dialogArguments.validationText.replace(/\$Input/gi, result);
-      $("scMessageBar").removeClassName('scHidden');
+      $("ErrorPanel").innerHTML = dialogArguments.validationText.replace(/\$Input/gi, result);
+      $("ErrorPanel").removeClassName('scHidden');
       scForm.autoIncreaseModalDialogHeight();
       return;
     }
 
     if (maxlength != 0 && result != null && result.length > maxlength) {
-      $("scMessageBarText").innerHTML = dialogArguments.maxLengthValidatationText;
-      $("scMessageBar").removeClassName('scHidden');
+      $("ErrorPanel").innerHTML = dialogArguments.maxLengthValidatationText;
+      $("ErrorPanel").removeClassName('scHidden');
       scForm.autoIncreaseModalDialogHeight();
       return;
     }
