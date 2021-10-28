@@ -68,9 +68,6 @@
     <Compile Include="Shell\Applications\Templates\AddFromTemplate\AddFromTemplateForm.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.317000.317073.config">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="sitecore\shell\Applications\Dialogs\Prompt\prompt.js" />
     <Content Include="sitecore\shell\Applications\Templates\AddFromTemplate\AddFromTemplate.xml" />
   </ItemGroup>
