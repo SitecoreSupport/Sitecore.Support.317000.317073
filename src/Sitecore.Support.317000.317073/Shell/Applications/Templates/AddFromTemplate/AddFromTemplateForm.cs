@@ -24,7 +24,7 @@
     }
 
     /// <summary>
-    /// Executes the OK action.
+    /// Executes the ok action.
     /// </summary>
     protected new void  DoOK()
     {
